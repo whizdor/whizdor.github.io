@@ -15,4 +15,4 @@ cpi_esc.html / cpi_ta.html
 
 
 
-By - Kushagra Srivastava, Aujasvit Dutta, Jenil Dobariya, Nilay Agarwal.
+By - Aujasvit Dutta, Kushagra Srivastava, Jenil Dobariya, Nilay Agarwal.
