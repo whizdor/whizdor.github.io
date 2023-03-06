@@ -21,30 +21,30 @@
 		.gradesLabel{
 			position: relative;
 			padding-bottom: 0.5%;
+			color: white;
+			border: 0 solid !important;
 		}
 		.grades{
 			position: relative;
-			width: 75%;
 			padding-bottom: 0.5%;
 			font-family: 'Ubuntu', sans-serif;
-		}
-		.content{
-			padding-left: 10%;
-			padding-right: 10%;
+			border: 0 solid !important;
 		}
 		#btn{
 			text-align: center;
 			padding-top: 5%;
-			padding-left: 10%;
-			padding-right: 10%;
 		}
 		.btn{
-			width: 30%;
 			font-weight: 400;
 			font-family: 'Ubuntu', sans-serif;
 		}
 		.output{
 			text-align: center;
+		}
+		@media screen and (min-width:1200px){
+			.content{
+				padding-left: 10% !important;
+			}
 		}
 	</style>
 </head>
@@ -55,8 +55,9 @@
 		<div class="semester1">
 			<h2>Semester 1</h2>
 			<hr>
-			<div class="content">
-			<table>		
+			<div class="content px-lg-4 px-md-3">
+				<div class="px-lg-4">
+			<table class="table">		
 				<tr>
 					<td class="gradesLabel">
 						<label for="chm111" class="form-label">CHM111 : </label>
@@ -160,7 +161,7 @@
 			
 				<tr>
 					<td class="gradesLabel">
-						<label for="mth111" class="form-label">MTH111A : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						<label for="mth111" class="form-label">MTH111A : </label>
 					</td>
 					<td class="grades">
 						<select name="mth111" id="mth111" class="form-select form-select-sm">
@@ -238,20 +239,20 @@
 				</tr>
 		</table>	
 	</div>
+	</div>
 		</div>
 
 		<div class="semester2">
 
 			<h2>Semester 2</h2>
 			<hr>
-			<div class="content">
-			<table>		
+			<div class="content px-lg-4 px-md-3">
+				<div class="px-lg-4">
+			<table class="table">		
 				<tr>
-					<div class="gradesLabel">
-						<td>
-							<label for="chm112" class="form-label">CHM112M : </label>
-						</td>
-					</div>
+					<td class="gradesLabel">
+						<label for="chm112" class="form-label">CHM112M : </label>
+					</td>
 					<td class="grades">
 						<select name="chm112" id="chm112" class="form-select form-select-sm">
 							<option value="" selected>Select your Grade</option>
@@ -294,7 +295,7 @@
 	
 				<tr>
 					<td class="gradesLabel">
-						<label for="elc" class="form-label">ELC11(1/2/3) : &nbsp;</label>
+						<label for="elc" class="form-label">ELC11(1/2/3) : </label>
 					</td>
 					<td class="grades">
 						<select name="elc" id="elc" class="form-select form-select-sm">
@@ -437,6 +438,7 @@
 					</td>
 				</tr>
 			</table>
+		</div>
 		</div>
 		</div>
 		<div id="btn">
